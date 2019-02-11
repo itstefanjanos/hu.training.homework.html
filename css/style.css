@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Satisfy');
+* {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Comfortaa', cursive
+}
+html {
+    background: #dbff9f
+}
+body {
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    background: #f0e399;
+    width: 70%;
+    color: #30150a
+}
+h1, h2 {
+    font-family: 'Satisfy', cursive
+}
+h1 {
+    font-size: 3em
+}
+h2 {
+    font-size: 2em
+}
+#foodImage {
+    width: 20em;
+    float: right;
+    border: 0.3em solid #30150a;
+    margin: 1em
+}
+#foodIngredients {
+    margin-top: 8em;
+}
+#foodIngredients table{
+    margin: 1em;
+    line-height: 1.25em;
+}
+#foodIngredients thead {
+    font-size: 1.2em;
+    font-weight: bold
+}
+#foodIngredients tbody tr:nth-child(odd) {
+    color: #468c3d
+}
+#foodIngredients table td {
+    padding-right: 2em
+}
+#foodMethod {
+    margin-top: 0.5em;
+}
+#foodMethod p {
+    margin: 1em;
+    line-height: 1.5em;
+}
+#logTitleButton {
+    padding: 1em;
+    cursor: pointer;
+}
+footer {
+    text-align: right;
+}
