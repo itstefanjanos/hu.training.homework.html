@@ -1,5 +1,5 @@
 $(function () {
     $("#logTitleButton").click(function () {
-        console.log($(this).html());
+        console.log($("#titleh1").html());
     });
 });
